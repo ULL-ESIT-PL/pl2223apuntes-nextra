@@ -51,8 +51,9 @@
       "teams": {"title": "Teams", "href": "https://github.com/orgs/ULL-ESIT-PL-2122/teams"},
       "projects": {"title": "Projects", "href": "https://github.com/orgs/ULL-ESIT-PL-2122/projects"},
       "classroom": {"title": "Classroom", "href": "https://classroom.github.com/classrooms/90842648-ull-esit-pl-2122"},
-      "-----Deploys------": {
-        "type": "separator"
+      "-- About --": {
+        "type": "separator",
+        "title": "-- Repos and Deploys --"
       },
       "deploy-github": { "title": "Deploy at GH", "href": "https://github.com/ULL-ESIT-GRADOII-PL/ull-esit-gradoii-pl.github.io"},
       "deploy-netlify": { "title": "Deploy at netlify", "href": "https://fervent-swirles-a16008.netlify.app/"},

@@ -101,7 +101,11 @@ const config: DocsThemeConfig = {
         </div>
       )
     }
-  }
+  },
+  toc: {
+    title: 'On this page',
+    float: true,
+  },
 }
 
 export default config

@@ -1,8 +1,8 @@
 export function Rubric({list}) {
   return (
     <div>
-<ol className="list-disc">
-{list.map(i => (<li key={i}>{i}</li>))}
+<ol className="list-none">
+{list.map(i => (<li key={i}> <input type="checkbox" /> {i}</li>))}
 </ol>
     </div>
   )

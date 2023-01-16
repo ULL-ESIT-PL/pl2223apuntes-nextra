@@ -8,6 +8,7 @@
   "docs-theme": "Docs Theme",
   "blog-theme": "Blog Theme",
   "custom-theme": "Custom Theme",
+  "labs": "Labs",
   "-- About --": {
     "type": "separator",
     "title": "More"
