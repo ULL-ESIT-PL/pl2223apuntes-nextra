@@ -9,9 +9,9 @@ const logo = (
 
 const config: DocsThemeConfig = {
   project: {
-    link: 'https://github.com/shuding/nextra'
+    link: 'https://github.com/ULL-ESIT-PL/pl2223apuntes-nextra'
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra/tree/main/docs',
+  docsRepositoryBase: 'https://github.com/ULL-ESIT-PL/pl2223apuntes-nextra/tree/main',
   useNextSeoProps() {
     const { route } = useRouter()
     if (route !== '/') {
@@ -106,6 +106,10 @@ const config: DocsThemeConfig = {
     title: 'On this page',
     float: true,
   },
+  chat: {
+    link: "https://mail.google.com/chat/u/1/#chat/welcome",
+    icon: "Chat",
+  }
 }
 
 export default config

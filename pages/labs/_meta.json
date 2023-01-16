@@ -1,26 +1,13 @@
 {
-  "index": "Introduction",
-  "guide": "Guide",
-  "-- Themes --": {
-    "type": "separator",
-    "title": "Themes"
-  },
-  "docs-theme": "Fill the PL initial Form",
-  "blog-theme": "Blog Theme",
-  "custom-theme": "Custom Theme",
-  "-- About --": {
-    "type": "separator",
-    "title": "Labs"
-  },
-  "about link": {
-    "title": "About Nextra",
-    "href": "/about",
-    "display": "hidden"
-  },
-  "Next.js link": {
-    "title": "Next.js Docs ↗",
-    "href": "https://nextjs.org?utm_source=nextra.site&utm_medium=referral&utm_campaign=sidebar",
-    "newWindow": true,
-    "display": "hidden"
+  "index": {
+    "title": "Labs",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "full"
+    }
   }
 }
