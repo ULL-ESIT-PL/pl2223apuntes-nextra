@@ -2,10 +2,11 @@
   "index": {
     "title": "Labs",
     "theme": {
-      "breadcrumb": false,
+      "breadcrumb": true,
       "footer": true,
       "sidebar": true,
       "toc": true,
+      "title": "On this page",
       "pagination": false,
       "layout": "full"
     }

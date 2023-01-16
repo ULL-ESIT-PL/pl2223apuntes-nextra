@@ -22,11 +22,7 @@
   },
   "labs": {
     "title": "Labs",
-    "type": "page",
-    "theme": {
-      "typesetting": "article",
-      "layout": "full"
-    }
+    "type": "page"
   },
   "company": {
     "title": "Company",
