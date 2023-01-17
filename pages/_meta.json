@@ -8,7 +8,7 @@
     }
   },
   "docs": {
-    "title": "Documentation",
+    "title": "Nextra Doc",
     "type": "page"
   },
   "showcase": {
@@ -43,42 +43,43 @@
     "title": "GitHub",
     "type": "menu",
     "items": {
-      "organization": {"title": "Organization", "href": "https://github.com/ULL-ESIT-PL-2122"},
-      "teams": {"title": "Teams", "href": "https://github.com/orgs/ULL-ESIT-PL-2122/teams"},
-      "projects": {"title": "Projects", "href": "https://github.com/orgs/ULL-ESIT-PL-2122/projects"},
-      "classroom": {"title": "Classroom", "href": "https://classroom.github.com/classrooms/90842648-ull-esit-pl-2122"},
+      "organization": {"title": "Organization", "href": "https://github.com/ULL-ESIT-PL-2223", "newWindow": true},
+      "teams": {"title": "Teams", "href": "https://github.com/orgs/ULL-ESIT-PL-2223/teams", "newWindow": true},
+      "projects": {"title": "Projects", "href": "https://github.com/orgs/ULL-ESIT-PL-2223/projects", "newWindow": true},
+      "classroom": {"title": "Classroom", "href": "https://classroom.github.com/classrooms/90842648-ull-esit-pl-2223", "newWindow": true},
       "-- About --": {
         "type": "separator",
         "title": "-- Repos and Deploys --"
       },
-      "deploy-github": { "title": "Deploy at GH", "href": "https://github.com/ULL-ESIT-GRADOII-PL/ull-esit-gradoii-pl.github.io"},
-      "deploy-netlify": { "title": "Deploy at netlify", "href": "https://fervent-swirles-a16008.netlify.app/"},
-      "source": { "title": "Source", "href": "https://github.com/ULL-ESIT-GRADOII-PL/ull-esit-gradoii-pl.github.io-source"},
+      "deploy-vercel": { "title": "Deploy at Vercel", "href": "https://pl2223apuntes-nextra.vercel.app/", "newWindow": true},
+      "deploy-netlify": { "title": "Deploy at netlify", "href": "https://ull-esit-pl-2223.netlify.app/", "newWindow": true},
+      "source": { "title": "Source", "href": "https://github.com/ULL-ESIT-GRADOII-PL/ull-esit-gradoii-pl.github.io-source", "newWindow": true},
       "-----Others------": {
         "type": "separator"
       },
-      "mfp-tfm": {"title": "ULL-MFP-TFM-Y-PCE-2122", "href": "https://github.com/ULL-MFP-TFM-Y-PCE-2122/private"},
-      "gct": {"title": "Global Campus Teachers", "href": "https://github.com/GitHub-Global-Campus/Global-Campus-Teachers/discussions"}
+      "mfp-tfm": {"title": "ULL-MFP-TFM-Y-PCE-2223", "href": "https://github.com/ULL-MFP-TFM-Y-PCE-2223/private", "newWindow": true},
+      "gct": {"title": "Global Campus Teachers", "href": "https://github.com/GitHub-Global-Campus/Global-Campus-Teachers/discussions", "newWindow": true}
       }
   },
   "google" :{
     "title": "Google",
     "type": "menu",
     "items": {
-      "meet": {"title": "Meet", "href": "https://meet.google.com/eha-yfij-zmo"},
-      "chat": {"title": "Chat", "href": "https://mail.google.com/chat/u/1/#chat/welcome"},
-      "spreadsheets": {"title": "Spreadsheets", "href": "https://docs.google.com/spreadsheets/u/1/?tgif=d"},
-      "community": {"title": "Community", "href": "https://currents.google.com/u/0/communities/101901734024125937720"},
+      "meet": {"title": "Meet", "href": "https://meet.google.com/eha-yfij-zmo", "newWindow": true},
+      "chat": {"title": "Chat", "href": "https://mail.google.com/chat/u/1/#chat/welcome", "newWindow": true},
+      "spreadsheets": {"title": "Spreadsheets", "href": "https://docs.google.com/spreadsheets/u/1/?tgif=d", "newWindow": true},
+      "community": {"title": "Community", "href": "https://currents.google.com/u/0/communities/101901734024125937720", "newWindow": true},
       "videos": {
         "title": "----Vídeos----  ", 
         "type": "separator"
       },
-     "curso 21/22": { "title": "Curso 21/22", "href": "https://youtube.com/playlist?list=PLuPGCp-dfrUQbbnbT_8qHK1WQYurYwBEY" },
-     "curso 20/21": { "title": "Curso 20/21", "href": "https://www.youtube.com/playlist?list=PLuPGCp-dfrUTzN_o2beArY1QoFUTGH-yd"},
-     "curso 19/20": { "title": "Curso 19/20", "href": "https://youtube.com/playlist?list=PLuPGCp-dfrUTByhC5b9vInei9OzdYSBs7" }
+     "curso 21/22": { "title": "Curso 21/22", "href": "https://youtube.com/playlist?list=PLuPGCp-dfrUQbbnbT_8qHK1WQYurYwBEY", "newWindow": true },
+     "curso 20/21": { "title": "Curso 20/21", "href": "https://www.youtube.com/playlist?list=PLuPGCp-dfrUTzN_o2beArY1QoFUTGH-yd", "newWindow": true},
+     "curso 19/20": { "title": "Curso 19/20", "href": "https://youtube.com/playlist?list=PLuPGCp-dfrUTByhC5b9vInei9OzdYSBs7", "newWindow": true }
       }
   },
   "about": {
+    "display": "hidden",
     "title": "About",
     "type": "page",
     "theme": {

@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 
 const logo = (
   <span>
-    PL
+    <img src="/pl-logo.png" alt="PL" className="w-8 h-8" />
   </span>
 )
 
@@ -108,7 +108,7 @@ const config: DocsThemeConfig = {
   },
   chat: {
     link: "https://mail.google.com/chat/u/1/#chat/welcome",
-    icon: "Chat",
+    //icon: "Chat",
   }
 }
 
