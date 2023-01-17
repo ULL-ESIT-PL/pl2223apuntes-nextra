@@ -1,5 +1,5 @@
 // Crguezl: My Jekyll _config.yml file for PL web site
-const TemasPublicados = require('./temas-publicados.js')
+import TemasPublicados from './temas-publicados';
 const navigationBar = [
   {
     text: 'Clases',
@@ -44,12 +44,12 @@ const navigationBar = [
     text: 'GitHub',
     items: [
       {
-        text: "ULL-ESIT-PL-2122",
+        text: "ULL-ESIT-PL-2223",
         items: [
-          {text: 'Organization', link: 'https://github.com/ULL-ESIT-PL-2122'},
-          {text: 'Teams', link: 'https://github.com/orgs/ULL-ESIT-PL-2122/teams'},
-          {text: 'Projects', link: 'https://github.com/orgs/ULL-ESIT-PL-2122/projects'},
-          {text: 'Classroom', link: 'https://classroom.github.com/classrooms/90842648-ull-esit-pl-2122'},
+          {text: 'Organization', link: 'https://github.com/ULL-ESIT-PL-2223'},
+          {text: 'Teams', link: 'https://github.com/orgs/ULL-ESIT-PL-2223/teams'},
+          {text: 'Projects', link: 'https://github.com/orgs/ULL-ESIT-PL-2223/projects'},
+          {text: 'Classroom', link: 'https://classroom.github.com/classrooms/108465133-ull-esit-pl-2223'},
         ]    
       },
       {text: 'Apuntes Repo', 
@@ -61,8 +61,8 @@ const navigationBar = [
       },
       {text: 'Teacher',
         items: [
-          {text: 'ULL-MFP-TFM-Y-PCE-2122', link: 'https://github.com/ULL-MFP-TFM-Y-PCE-2122/private'},
-          //{text: 'PL Discussions', link: 'https://github.com/ULL-ESIT-PL-2122/PL-2122-discussions/discussions'},
+          {text: 'ULL-MFP-TFM-Y-PCE-2223', link: 'https://github.com/ULL-MFP-TFM-Y-PCE-2223/private'},
+          //{text: 'PL Discussions', link: 'https://github.com/ULL-ESIT-PL-2223/PL-2223-discussions/discussions'},
           {text: 'Global Campus Teachers', link: 'https://github.com/GitHub-Global-Campus/Global-Campus-Teachers/discussions'},
         ]
       }
@@ -71,23 +71,23 @@ const navigationBar = [
   {
     text: 'Campus Virtual',
     items: [
-      { text:'PL en el Campus Virtual', link: 'https://campusingenieriaytecnologia2122.ull.es/course/view.php?id=2122090039' },
+      { text:'PL en el Campus Virtual', link: 'https://campusingenieriaytecnologia2223.ull.es/course/view.php?id=2223090147' },
       {text: 'Guía Docente',
        items: [
-         { text: "Guía", link: 'https://www.ull.es/apps/guias/guias/view_guide_course/2122/139263121/'},
+         { text: "Guía", link: 'https://www.ull.es/apps/guias/guias/view_guide_course/2223/139263121/'},
          { text: "Casiano", link: 'https://www.ull.es/apps/guias/guias/view_teacher_niu/798/crguezl/'},
          { text: "Israel", link: 'https://www.ull.es/apps/guias/guias/view_teacher_niu/798/ilopezpl/'},
-         {text: 'Horario de Tutorías', link: 'https://www.ull.es/apps/guias/guias/view_guide_course/2122/139263121/3/'},
+         {text: 'Horario de Tutorías', link: 'https://www.ull.es/apps/guias/guias/view_guide_course/2223/139263121/3/'},
        ]
       },
       { text: 'Campus',
         items: [
-          { text: 'Participantes', link: "https://campusingenieriaytecnologia2122.ull.es/user/index.php?id=2122090039" },
-          { text: 'Calificador', link: "https://campusingenieriaytecnologia2122.ull.es/grade/report/user/index.php?id=2122090039" },
-          { text: 'Tareas', link: "https://campusingenieriaytecnologia2122.ull.es/mod/assign/index.php?id=2122090039"},
-          { text: 'Foros', link: "https://campusingenieriaytecnologia2122.ull.es/mod/forum/index.php?id=2122090039"},
-          { text: 'Banco de Preguntas', link: "https://campusingenieriaytecnologia2122.ull.es/question/edit.php?courseid=2122090039" },
-          { text: 'Introducción a PL', link: 'https://campusingenieriaytecnologia2122.ull.es/course/view.php?id=2122090039#section-12'}
+          { text: 'Participantes', link: "https://campusingenieriaytecnologia2223.ull.es/user/index.php?id=2223090147" },
+          { text: 'Calificador', link: "https://campusingenieriaytecnologia2223.ull.es/grade/report/user/index.php?id=2223090147" },
+          { text: 'Tareas', link: "https://campusingenieriaytecnologia2223.ull.es/mod/assign/index.php?id=2223090147"},
+          { text: 'Foros', link: "https://campusingenieriaytecnologia2223.ull.es/mod/forum/index.php?id=2223090147"},
+          { text: 'Banco de Preguntas', link: "https://campusingenieriaytecnologia2223.ull.es/question/edit.php?courseid=2223090147" },
+          { text: 'Introducción a PL', link: 'https://campusingenieriaytecnologia2223.ull.es/course/view.php?id=2223090147#section-12'}
         ]
       },
       { 
@@ -97,8 +97,8 @@ const navigationBar = [
           {text: 'Portafirmas', link: 'https://sede.ull.es/ecivilis-signature-inbox-application/inbox.html'},
         ]
       },
-      { text: 'TFG', link: "https://campusingenieriaytecnologia2122.ull.es/grade/report/user/index.php?id=2122090070&userid=254"},
-      { text: 'Campus de Masters', link: "https://campusdoctoradoyposgrado2122.ull.es/my/"},
+      { text: 'TFG', link: "https://campusingenieriaytecnologia2223.ull.es/grade/report/user/index.php?id=2223090070&userid=254"},
+      { text: 'Campus de Masters', link: "https://campusdoctoradoyposgrado2223.ull.es/my/"},
  
 /*
       <li><a :href="$var.foros" target="_blank">Foros</a></li>
@@ -225,7 +225,7 @@ const PLinfo = {
   },
 };
 
-module.exports = PLinfo;
+export default PLinfo;
 
 /*
     sidebar: {
