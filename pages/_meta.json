@@ -53,12 +53,12 @@
       },
       "deploy-vercel": { "title": "Deploy at Vercel", "href": "https://pl2223apuntes-nextra.vercel.app/", "newWindow": true},
       "deploy-netlify": { "title": "Deploy at netlify", "href": "https://ull-esit-pl-2223.netlify.app/", "newWindow": true},
-      "source": { "title": "Source", "href": "https://github.com/ULL-ESIT-GRADOII-PL/ull-esit-gradoii-pl.github.io-source", "newWindow": true},
+      "source": { "title": "Source", "href": "https://github.com/ULL-ESIT-PL/pl2223apuntes-nextra", "newWindow": true},
       "-----Others------": {
         "type": "separator"
       },
-      "mfp-tfm": {"title": "ULL-MFP-TFM-Y-PCE-2223", "href": "https://github.com/ULL-MFP-TFM-Y-PCE-2223/private", "newWindow": true},
-      "gct": {"title": "Global Campus Teachers", "href": "https://github.com/GitHub-Global-Campus/Global-Campus-Teachers/discussions", "newWindow": true}
+      "mfp-tfm": {"title": "ULL-MFP-TFM-Y-PCE-2223", "href": "https://github.com/ULL-MFP-AET-2223/tfm-y-pce-2223", "newWindow": true},
+      "gct": {"title": "GitHub Community Discussions", "href": "https://github.com/orgs/community/discussions/categories/github-education", "newWindow": true}
       }
   },
   "google" :{
