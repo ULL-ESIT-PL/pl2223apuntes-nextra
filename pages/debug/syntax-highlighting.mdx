@@ -6,6 +6,21 @@ Visit https://nextjs.org.
 
 ## Syntax Highlighting
 
+### Highlight Specific Lines
+
+````markdown
+```js {1,4-5}
+import { useState } from 'react'
+ 
+function Counter() {
+  const [count, setCount] = useState(0)
+  return <button onClick={() => setCount(count + 1)}>{count}</button>
+}
+```
+````
+
+Notice how lines 1 and 4-5 are highlighted:
+
 ```js {1,4-5}
 import { useState } from 'react'
  
@@ -15,10 +30,33 @@ function Counter() {
 }
 ```
 
+### Copy button
+
+````markdown
+```js copy
+console.log('hello, world')
+```
+````
+
+Notice the copy button:
 
 ```js copy
 console.log('hello, world')
 ```
+
+### Show line numbers
+
+````markdown
+```js showLineNumbers
+import { useState } from 'react'
+ 
+function Counter() {
+  const [count, setCount] = useState(0)
+  return <button onClick={() => setCount(count + 1)}>{count}</button>
+}
+```
+````
+
 
 ```js showLineNumbers
 import { useState } from 'react'
@@ -28,6 +66,19 @@ function Counter() {
   return <button onClick={() => setCount(count + 1)}>{count}</button>
 }
 ```
+
+### Highlight specific patterns using Regexp
+
+````markdown
+```js /useState/
+import { useState } from 'react'
+ 
+function Counter() {
+  const [count, setCount] = useState(0)
+  return <button onClick={() => setCount(count + 1)}>{count}</button>
+}
+```
+````  
 
 ```js /useState/
 import { useState } from 'react'
