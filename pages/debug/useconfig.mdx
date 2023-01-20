@@ -1,0 +1,201 @@
+## useConfig: The Config Object
+
+### Lateral Effects with useConfig
+
+```jsx
+import { useConfig } from 'nextra-theme-docs'
+
+export function LateralEffects() {
+  const config = useConfig()
+  config.toc.title = "En Esta página"
+  return null
+}
+
+<LateralEffects></LateralEffects>
+
+```
+
+import { useConfig } from 'nextra-theme-docs'
+
+export function LateralEffects() {
+  const config = useConfig()
+  config.toc.title = "En Esta página"
+  return null
+}
+
+<LateralEffects></LateralEffects>
+
+### 2022-02-14.mdx
+
+```jsx
+import FrontMatter from '@components/frontmatter'
+
+# <FrontMatter prop="title" />
+```
+
+### The component @components/frontmatter.jsx
+
+```jsx
+import { useConfig } from 'nextra-theme-docs'
+
+export default function FrontMatter({ prop }) {
+  const config = useConfig()
+  console.log(JSON.stringify(config, null, 2)); // see below the output
+  return config.frontMatter[prop]
+}
+````
+
+### Output: The config object returned by useConfig()
+
+```js
+{
+  "banner": {
+    "dismissible": true,
+    "key": "nextra-banner"
+  },
+  "chat": {
+    "icon": {
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": [
+          {
+            "key": null,
+            "ref": null,
+            "props": {},
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": "span",
+            "key": null,
+            "ref": null,
+            "props": {
+              "className": "nx-sr-only",
+              "children": "Discord"
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        ]
+      },
+      "_owner": null,
+      "_store": {}
+    },
+    "link": "https://mail.google.com/chat/u/1/#chat/welcome"
+  },
+  "darkMode": true,
+  "direction": "ltr",
+  "docsRepositoryBase": "https://github.com/ULL-ESIT-PL/pl2223apuntes-nextra/tree/main",
+  "editLink": {
+    "text": "Edit this page on GitHub →"
+  },
+  "feedback": {
+    "labels": "feedback"
+  },
+  "footer": {},
+  "i18n": [],
+  "logo": {
+    "type": "span",
+    "key": null,
+    "ref": null,
+    "props": {
+      "children": {
+        "type": "img",
+        "key": null,
+        "ref": null,
+        "props": {
+          "src": "/pl-logo.png",
+          "alt": "PL",
+          "className": "w-8 h-8"
+        },
+        "_owner": null,
+        "_store": {}
+      }
+    },
+    "_owner": null,
+    "_store": {}
+  },
+  "logoLink": true,
+  "navbar": {},
+  "navigation": true,
+  "nextThemes": {
+    "defaultTheme": "system",
+    "storageKey": "theme"
+  },
+  "notFound": {
+    "content": "Submit an issue about broken link →",
+    "labels": "bug"
+  },
+  "primaryHue": {
+    "dark": 204,
+    "light": 212
+  },
+  "project": {
+    "icon": {
+      "key": null,
+      "ref": null,
+      "props": {
+        "children": [
+          {
+            "key": null,
+            "ref": null,
+            "props": {},
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "type": "span",
+            "key": null,
+            "ref": null,
+            "props": {
+              "className": "nx-sr-only",
+              "children": "GitHub"
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        ]
+      },
+      "_owner": null,
+      "_store": {}
+    },
+    "link": "https://github.com/ULL-ESIT-PL/pl2223apuntes-nextra"
+  },
+  "search": {
+    "emptyResult": {
+      "type": "span",
+      "key": null,
+      "ref": null,
+      "props": {
+        "className": "nx-block nx-select-none nx-p-8 nx-text-center nx-text-sm nx-text-gray-400",
+        "children": "No results found."
+      },
+      "_owner": null,
+      "_store": {}
+    }
+  },
+  "serverSideError": {
+    "content": "Submit an issue about error in url →",
+    "labels": "bug"
+  },
+  "sidebar": {
+    "defaultMenuCollapseLevel": 0
+  },
+  "toc": {
+    "float": true,
+    "title": "On this page"
+  },
+  "flexsearch": {
+    "codeblocks": false
+  },
+  "title": "Lunes 2022/02/14",
+  "frontMatter": {
+    "title": "Lunes 2022/02/14",
+    "child": "using-vue",
+    "published": true,
+    "summary": "Introducción a la metodología de trabajo, primeras tareas y prácticas, bibliografía, sistema de evaluación, TFA, etc.",
+    "next": "2022-02-15-leccion.md"
+  }
+}
+````

@@ -13,7 +13,16 @@ function capitalizeFirstLetter(string) {
 export default function CampusVirtual() {
   return (
   <ul className="list-disc">
-    {Fields.map(i => <li><a href={$var[i]} className={LinkClass} target="_blank">{Array.isArray(i)? i[1] : capitalizeFirstLetter(i)}</a></li>)}
+    {Fields.map(i => 
+      <li key={i}>
+        <a 
+           href={$var[i]} 
+           className={LinkClass} 
+           target="_blank">
+            {Array.isArray(i)? i[1] : capitalizeFirstLetter(i)}
+         </a>
+      </li>
+      )}
   </ul>
   )
 }
