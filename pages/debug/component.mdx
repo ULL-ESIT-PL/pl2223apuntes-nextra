@@ -1,0 +1,29 @@
+## Components in MDX
+ 
+```jsx
+import { useState } from 'react'
+ 
+export function Counter({ children }) {
+  const [count, setCount] = useState(0)
+  return <button onClick={() => setCount(count + 1)}>
+    {children}{count}
+  </button>
+}
+ 
+ Notice how "**Clicks**" appears in bold:
+
+<Counter>**Clicks**: </Counter>
+```
+
+import { useState } from 'react'
+ 
+export function Counter({ children }) {
+  const [count, setCount] = useState(0)
+  return <button onClick={() => setCount(count + 1)}>
+    {children}{count}
+  </button>
+}
+ 
+ Notice how "**Clicks**" appears in bold:
+
+<Counter>**Clicks**: </Counter>

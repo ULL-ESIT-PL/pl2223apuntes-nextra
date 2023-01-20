@@ -7,6 +7,10 @@
       "layout": "raw"
     }
   },
+  "debug": {
+    "title": "Debugging Nextra",
+    "type": "page"  
+  },
   "docs": {
     "title": "Nextra Doc",
     "type": "page"
