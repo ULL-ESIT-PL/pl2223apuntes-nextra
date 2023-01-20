@@ -9,7 +9,8 @@
   },
   "debug": {
     "title": "Debugging Nextra",
-    "type": "page"  
+    "type": "page",
+    "href": "/debug" 
   },
   "docs": {
     "title": "Nextra Doc",

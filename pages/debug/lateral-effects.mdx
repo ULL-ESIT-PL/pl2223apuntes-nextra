@@ -1,0 +1,28 @@
+## Lateral Effects with useConfig
+
+```jsx
+import { useConfig } from 'nextra-theme-docs'
+
+export function LateralEffects() {
+  const config = useConfig()
+  config.toc.title = "En Esta página"
+  return null
+}
+
+<LateralEffects></LateralEffects>
+
+```
+import { Callout } from 'nextra-theme-docs'
+import { useConfig } from 'nextra-theme-docs'
+
+export function LateralEffects() {
+  const config = useConfig()
+  config.toc.title = "En Esta página"
+  return null
+}
+
+<LateralEffects></LateralEffects>
+
+<Callout type="info">
+Look at the upper right side of the page. The title of the table of contents has changed!.
+</Callout>
