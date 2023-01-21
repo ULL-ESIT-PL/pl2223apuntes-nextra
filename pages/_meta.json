@@ -12,20 +12,6 @@
     "type": "page",
     "href": "/debug" 
   },
-  "docs": {
-    "title": "Nextra Doc",
-    "type": "page",
-    "display": "hidden"
-  },
-  "showcase": {
-    "title": "Showcase",
-    "type": "page",
-    "display": "hidden",
-    "theme": {
-      "typesetting": "article",
-      "layout": "full"
-    }
-  },
   "clases": {
     "title": "Clases",
     "type": "page"
