@@ -14,7 +14,8 @@
   },
   "docs": {
     "title": "Nextra Doc",
-    "type": "page"
+    "type": "page",
+    "display": "hidden"
   },
   "showcase": {
     "title": "Showcase",
@@ -25,8 +26,16 @@
       "layout": "full"
     }
   },
+  "clases": {
+    "title": "Clases",
+    "type": "page"
+  },
   "labs": {
     "title": "Labs",
+    "type": "page"
+  },
+  "temas": {
+    "title": "Temas",
     "type": "page"
   },
   "company": {
