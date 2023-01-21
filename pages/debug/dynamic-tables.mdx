@@ -1,9 +1,6 @@
 import Link from 'next/link'
 import styles from '../index.module.css'
 
-## LaTeX
-
-Learn $$\LaTeX{}$$: $$x^2$$
 
 ## Dynamic Table example
 
@@ -21,38 +18,3 @@ Learn $$\LaTeX{}$$: $$x^2$$
 </tbody>
 </table>
     
-
-## Computed List Link href=\{item.link\} 
-
-<ul>
-{
-  [
-    { title: 'Fill the PL initial form', link: '/labs/github-alu-form' },
-    { title: 'Learn to use VsCode', link: '/labs/visual-studio-code' }
-  ].map((item, index) => (
-    <li key={item.link}>* <Link href={item.link} className={styles.cta}>{item.title}</Link> [{item.title}]({item.link})</li>)
-  )
-}
-</ul>
-
-## Export const: Preamble
-
-```jsx
-export const labs =   [
-    { title: 'Fill the PL initial form', link: '/labs/github-alu-form' },
-    { title: 'Learn to use VsCode', link: '/labs/visual-studio-code' }
-  ];
-
-<div>
-{JSON.stringify(labs)}
-</div>
-```
-
-export const labs =   [
-    { title: 'Fill the PL initial form', link: '/labs/github-alu-form' },
-    { title: 'Learn to use VsCode', link: '/labs/visual-studio-code' }
-  ];
-
-<div>
-{JSON.stringify(labs)}
-</div>
