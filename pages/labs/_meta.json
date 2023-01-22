@@ -1,13 +1,20 @@
 {
   "index": {
-    "title": "Labs",
-    "theme": {
-      "breadcrumb": true,
-      "footer": true,
-      "sidebar": true,
-      "toc": true,
-      "title": "On this page",
-      "pagination": false
-    }
+    "title": "Labs"
+  },
+  "github-alu-form": {
+    "title": "GitHub-AluXXXX Form"  
+  },
+  "pl-currents-community": {
+    "title": "PL Currents Community"
+  },
+  "github-campus-expert": {
+    "title": "GitHub Campus Expert"
+  },
+  "github-project-board": {
+    "title": "GitHub Project Board"
+  },
+  "visual-studio-code": {
+    "title": "IDEs"
   }
 }
