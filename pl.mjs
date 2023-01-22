@@ -189,19 +189,19 @@ const PLinfo = {
   "cita_previa": "https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUd1YlJSLURtcE5JfGRlZmF1bHR8ZmNiMWNmMTE4MjNjNzk1MWQwZGQyYTI4ZjZjYjZjY2E",
   "google_plus": "https://currents.google.com/u/1/communities/101901734024125937720",
   "organization": {
-    "url": "https://github.com/ULL-ESIT-PL-2122",
-    "name": "ULL-ESIT-PL-2122",
+    "url": "https://github.com/ULL-ESIT-PL-2223",
+    "name": "ULL-ESIT-PL-2223",
     "master": "https://github.com/ULL-ESIT-GRADOII-PL/ull-esit-gradoii-pl.github.io/tree/master/"
   },
   "apuntes_repo": "https://github.com/ULL-ESIT-GRADOII-PL/ull-esit-gradoii-pl.github.io",
-  "campus_virtual": "https://campusingenieriaytecnologia2122.ull.es/course/view.php?id=2122090039",
-  "calificador": "https://campusingenieriaytecnologia2122.ull.es/grade/report/user/index.php?id=2122090039",
-  "participantes": "https://campusingenieriaytecnologia2122.ull.es/user/index.php?id=2122090039",
-  "tareas": "https://campusingenieriaytecnologia2122.ull.es/mod/assign/index.php?id=2122090039",
-  "foros": "https://campusingenieriaytecnologia2122.ull.es/mod/forum/index.php?id=2122090039",
+  "campus_virtual": "https://campusingenieriaytecnologia2223.ull.es/course/view.php?id=2223090147",
+  "calificador": "https://campusingenieriaytecnologia2223.ull.es/grade/report/user/index.php?id=2223090147",
+  "participantes": "https://campusingenieriaytecnologia2223.ull.es/user/index.php?id=2223090147",
+  "tareas": "https://campusingenieriaytecnologia2223.ull.es/mod/assign/index.php?id=2223090147",
+  "foros": "https://campusingenieriaytecnologia2223.ull.es/mod/forum/index.php?id=2223090147",
   "profesor": "https://www.ull.es/apps/guias/guias/view_teacher_niu/745/(%3FPcrguezl.*)/",
   "teacher_profile_edit": "https://www.ull.es/apps/guias/teachers/view_profile/",
-  "alu_github": "https://campusingenieriaytecnologia2122.ull.es/mod/assign/view.php?id=21205",
+  "alu_github": "https://campusingenieriaytecnologia2223.ull.es/mod/assign/view.php?id=21205",
   "udv": "https://udv.ull.es/portal/",
   "profesor_github": "crguezl",
   "chat": "https://chat.google.com/u/1/room/AAAANx1edCg",
@@ -220,8 +220,8 @@ const PLinfo = {
     "comments": true
   },
   "classroom": {
-    "url": "https://classroom.github.com/classrooms/90842648-ull-esit-pl-2122",
-    "name": "ULL-ESIT-PL-2122"
+    "url": "https://classroom.github.com/classrooms/90842648-ull-esit-pl-2223",
+    "name": "ULL-ESIT-PL-2223"
   },
 };
 

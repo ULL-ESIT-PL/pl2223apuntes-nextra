@@ -16,7 +16,7 @@ export default function CampusVirtual() {
     {Fields.map(i => 
       <li key={i}>
         <a 
-           href={$var[i]} 
+           href={Array.isArray(i)? $var[i[0]] : i} 
            className={LinkClass} 
            target="_blank">
             {Array.isArray(i)? i[1] : capitalizeFirstLetter(i)}

@@ -8,7 +8,7 @@
     }
   },
   "debug": {
-    "title": "Debugging Nextra",
+    "title": "🐛",
     "type": "page",
     "href": "/debug" 
   },
@@ -64,6 +64,46 @@
       "mfp-tfm": {"title": "ULL-MFP-TFM-Y-PCE-2223", "href": "https://github.com/ULL-MFP-AET-2223/tfm-y-pce-2223", "newWindow": true},
       "gct": {"title": "GitHub Community Discussions", "href": "https://github.com/orgs/community/discussions/categories/github-education", "newWindow": true}
       }
+  },
+  "Campus": {
+    "title": "Campus Virtual",
+    "type": "menu",
+    "items": {
+      "PL en el Campus Virtual": { 
+        "href": "https://campusingenieriaytecnologia2223.ull.es/course/view.php?id=2223090147",
+        "newWindow": true 
+      },
+      "Guía Docente": { 
+        "href": "https://www.ull.es/apps/guias/guias/view_guide_course/2223/139263121/",
+        "newWindow": true
+      },
+      "Casiano": { "href": "https://www.ull.es/apps/guias/guias/view_teacher_niu/967/crguezl/", "newWindow": true},
+      "Israel": {
+        "href": "https://www.ull.es/apps/guias/guias/view_teacher_niu/967/ilopezpl/",
+        "newWindow": true
+      },
+      "Javier": {
+        "href": "https://www.ull.es/apps/guias/guias/view_teacher_niu/967/jhernaac/",
+        "newWindow": true
+      },
+
+      "Horario de Tutorías": {
+        "href": "https://www.ull.es/apps/guias/guias/view_guide_course/2223/139263121/3/",
+        "newWindow": true
+      },
+      "Participantes": { "href": "https://campusingenieriaytecnologia2223.ull.es/user/index.php?id=2223090147", "newWindow": true},
+      "Calificador":  { "href": "https://campusingenieriaytecnologia2223.ull.es/grade/report/user/index.php?id=2223090147", "newWindow": true},
+      "Tareas": { "href": "https://campusingenieriaytecnologia2223.ull.es/mod/assign/index.php?id=2223090147", "newWindow": true},
+      "Foros": { "href": "https://campusingenieriaytecnologia2223.ull.es/mod/forum/index.php?id=2223090147", "newWindow": true},
+      "Banco de Preguntas": { "href": "https://campusingenieriaytecnologia2223.ull.es/question/edit.php?courseid=2223090147", "newWindow": true},
+      "-----Others------": {
+        "type": "separator"
+      },     
+      "Calendario Académico": { "href": "https://www.ull.es/estudios-docencia/calendario-academico/", "newWindow": true },
+      "Portafirmas": {"href": "https://sede.ull.es/portafirmas2/", "newWindow": true },
+      "TFG": {"href": "https://campusingenieriaytecnologia2223.ull.es/course/view.php?id=2223090185", "newWindow": true },
+      "Campus de Masters": {"href": "https://campusdoctoradoyposgrado2223.ull.es/my/", "newWindow": true }
+    }
   },
   "google" :{
     "title": "Google",
