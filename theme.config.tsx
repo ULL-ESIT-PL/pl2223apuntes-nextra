@@ -59,14 +59,14 @@ const config: DocsThemeConfig = {
       </>
     )
   },
-  // banner: {
-  //   key: '2.0-release',
-  //   text: (
-  //     <a href="https://nextra.site" target="_blank" rel="noreferrer">
-  //       🎉 Nextra 2.0 is released. Read more →
-  //     </a>
-  //   )
-  // },
+   banner: {
+     key: 'intro-to-pl',
+     text: (
+         <a href="/temas/introduccion-a-pl/presentacion" rel="noreferrer">
+           🎉 2nd term starting at 2023-01-30 →
+         </a>
+       )
+     },
   editLink: {
     text: 'Edit this page on GitHub →'
   },
@@ -74,6 +74,7 @@ const config: DocsThemeConfig = {
     content: () => <>Question? Give us feedback →</>,
     labels: 'feedback'
   },
+  /*
   sidebar: {
     titleComponent: ({ title, type }) => {
       if (type === 'separator') {
@@ -82,6 +83,20 @@ const config: DocsThemeConfig = {
       return <>{title}</>
     },
     defaultMenuCollapseLevel: 0
+  },
+  */
+  sidebar: {
+    titleComponent({ title, type }) {
+      if (type === 'separator') {
+        return (
+          <div style={{ background: 'cyan', textAlign: 'center' }}>{title}</div>
+        )
+      }
+      if (title === 'About') {
+        return <>❓ {title}</>
+      }
+      return <>👉 {title}</>
+    }
   },
   footer: {
     text: () => {

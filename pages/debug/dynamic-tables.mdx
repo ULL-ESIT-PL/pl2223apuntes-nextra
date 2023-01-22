@@ -4,6 +4,22 @@ import styles from '../index.module.css'
 
 ## Dynamic Table example
 
+```jsx
+<table>
+<thead>
+<tr><th>Country</th><th>Flag</th></tr>
+</thead>
+<tbody>
+{[
+{ country: 'France', flag: '🇫🇷' },
+{ country: 'Ukraine', flag: '🇺🇦' }
+].map(item => (
+<tr key={item.country}><td>{item.country}</td><td>{item.flag}</td></tr>
+))}
+</tbody>
+</table>
+```    
+
 <table>
 <thead>
 <tr><th>Country</th><th>Flag</th></tr>

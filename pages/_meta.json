@@ -47,22 +47,21 @@
     "title": "GitHub",
     "type": "menu",
     "items": {
-      "organization": {"title": "Organization", "href": "https://github.com/ULL-ESIT-PL-2223", "newWindow": true},
-      "teams": {"title": "Teams", "href": "https://github.com/orgs/ULL-ESIT-PL-2223/teams", "newWindow": true},
-      "projects": {"title": "Projects", "href": "https://github.com/orgs/ULL-ESIT-PL-2223/projects", "newWindow": true},
-      "classroom": {"title": "Classroom", "href": "https://classroom.github.com/classrooms/90842648-ull-esit-pl-2223", "newWindow": true},
+      "organization": {"title": "Organization↗", "href": "https://github.com/ULL-ESIT-PL-2223", "newWindow": true},
+      "teams": {"title": "Teams↗", "href": "https://github.com/orgs/ULL-ESIT-PL-2223/teams", "newWindow": true},
+      "projects": {"title": "Projects↗", "href": "https://github.com/orgs/ULL-ESIT-PL-2223/projects", "newWindow": true},
+      "classroom": {"title": "Classroom↗", "href": "https://classroom.github.com/classrooms/90842648-ull-esit-pl-2223", "newWindow": true},
       "-- About --": {
         "type": "separator",
         "title": "-- Repos and Deploys --"
       },
-      "deploy-vercel": { "title": "Deploy at Vercel", "href": "https://pl2223apuntes-nextra.vercel.app/", "newWindow": true},
-      "deploy-netlify": { "title": "Deploy at netlify", "href": "https://ull-esit-pl-2223.netlify.app/", "newWindow": true},
-      "source": { "title": "Source", "href": "https://github.com/ULL-ESIT-PL/pl2223apuntes-nextra", "newWindow": true},
+      "deploy-vercel": { "title": "Deploy at Vercel↗", "href": "https://pl2223apuntes-nextra.vercel.app/", "newWindow": true},
+      "deploy-netlify": { "title": "Deploy at netlify↗", "href": "https://ull-esit-pl-2223.netlify.app/", "newWindow": true},
       "-----Others------": {
         "type": "separator"
       },
-      "mfp-tfm": {"title": "ULL-MFP-TFM-Y-PCE-2223", "href": "https://github.com/ULL-MFP-AET-2223/tfm-y-pce-2223", "newWindow": true},
-      "gct": {"title": "GitHub Community Discussions", "href": "https://github.com/orgs/community/discussions/categories/github-education", "newWindow": true}
+      "mfp-tfm": {"title": "ULL-MFP-TFM-Y-PCE-2223↗", "href": "https://github.com/ULL-MFP-AET-2223/tfm-y-pce-2223", "newWindow": true},
+      "gct": {"title": "GitHub Community Discussions↗", "href": "https://github.com/orgs/community/discussions/categories/github-education", "newWindow": true}
       }
   },
   "Campus": {
@@ -70,56 +69,81 @@
     "type": "menu",
     "items": {
       "PL en el Campus Virtual": { 
+        "title": "PL en el Campus Virtual↗",
         "href": "https://campusingenieriaytecnologia2223.ull.es/course/view.php?id=2223090147",
         "newWindow": true 
       },
       "Guía Docente": { 
+        "title": "Guía Docente↗",
         "href": "https://www.ull.es/apps/guias/guias/view_guide_course/2223/139263121/",
         "newWindow": true
       },
-      "Casiano": { "href": "https://www.ull.es/apps/guias/guias/view_teacher_niu/967/crguezl/", "newWindow": true},
+      "Casiano": { 
+        "title": "Casiano↗",
+        "href": "https://www.ull.es/apps/guias/guias/view_teacher_niu/967/crguezl/", "newWindow": true},
       "Israel": {
+        "title": "Israel↗",
         "href": "https://www.ull.es/apps/guias/guias/view_teacher_niu/967/ilopezpl/",
         "newWindow": true
       },
       "Javier": {
+        "title": "Javier↗",
         "href": "https://www.ull.es/apps/guias/guias/view_teacher_niu/967/jhernaac/",
         "newWindow": true
       },
 
       "Horario de Tutorías": {
+        "title": "Horario de Tutorías↗",
         "href": "https://www.ull.es/apps/guias/guias/view_guide_course/2223/139263121/3/",
         "newWindow": true
       },
-      "Participantes": { "href": "https://campusingenieriaytecnologia2223.ull.es/user/index.php?id=2223090147", "newWindow": true},
-      "Calificador":  { "href": "https://campusingenieriaytecnologia2223.ull.es/grade/report/user/index.php?id=2223090147", "newWindow": true},
-      "Tareas": { "href": "https://campusingenieriaytecnologia2223.ull.es/mod/assign/index.php?id=2223090147", "newWindow": true},
-      "Foros": { "href": "https://campusingenieriaytecnologia2223.ull.es/mod/forum/index.php?id=2223090147", "newWindow": true},
-      "Banco de Preguntas": { "href": "https://campusingenieriaytecnologia2223.ull.es/question/edit.php?courseid=2223090147", "newWindow": true},
-      "-----Others------": {
+      "Participantes": { 
+        "title": "Participantes↗",
+        "href": "https://campusingenieriaytecnologia2223.ull.es/user/index.php?id=2223090147", "newWindow": true},
+      "Calificador":  { 
+        "title": "Calificador↗",
+        "href": "https://campusingenieriaytecnologia2223.ull.es/grade/report/user/index.php?id=2223090147", "newWindow": true},
+      "Tareas": { 
+        "title": "Tareas↗",
+        "href": "https://campusingenieriaytecnologia2223.ull.es/mod/assign/index.php?id=2223090147", "newWindow": true},
+      "Foros": { 
+        "title": "Foros↗",
+        "href": "https://campusingenieriaytecnologia2223.ull.es/mod/forum/index.php?id=2223090147", "newWindow": true},
+      "Banco de Preguntas": { 
+        "title": "Banco de Preguntas↗",
+        "href": "https://campusingenieriaytecnologia2223.ull.es/question/edit.php?courseid=2223090147", "newWindow": true},
+      "****Others****": {
         "type": "separator"
       },     
-      "Calendario Académico": { "href": "https://www.ull.es/estudios-docencia/calendario-academico/", "newWindow": true },
-      "Portafirmas": {"href": "https://sede.ull.es/portafirmas2/", "newWindow": true },
-      "TFG": {"href": "https://campusingenieriaytecnologia2223.ull.es/course/view.php?id=2223090185", "newWindow": true },
-      "Campus de Masters": {"href": "https://campusdoctoradoyposgrado2223.ull.es/my/", "newWindow": true }
+      "Calendario Académico": { 
+        "title": "Calendario Académico↗",
+        "href": "https://www.ull.es/estudios-docencia/calendario-academico/", "newWindow": true },
+      "Portafirmas": {
+        "title": "Portafirmas↗",
+        "href": "https://sede.ull.es/portafirmas2/", "newWindow": true },
+      "TFG": {
+        "title": "TFG↗",
+        "href": "https://campusingenieriaytecnologia2223.ull.es/course/view.php?id=2223090185", "newWindow": true },
+      "Campus de Masters": {
+        "title": "Campus de Masters↗",
+        "href": "https://campusdoctoradoyposgrado2223.ull.es/my/", "newWindow": true }
     }
   },
   "google" :{
     "title": "Google",
     "type": "menu",
     "items": {
-      "meet": {"title": "Meet", "href": "https://meet.google.com/eha-yfij-zmo", "newWindow": true},
-      "chat": {"title": "Chat", "href": "https://mail.google.com/chat/u/1/#chat/welcome", "newWindow": true},
-      "spreadsheets": {"title": "Spreadsheets", "href": "https://docs.google.com/spreadsheets/u/1/?tgif=d", "newWindow": true},
-      "community": {"title": "Community", "href": "https://currents.google.com/u/0/communities/101901734024125937720", "newWindow": true},
+      "meet": {"title": "Meet↗", "href": "https://meet.google.com/eha-yfij-zmo", "newWindow": true},
+      "chat": {"title": "Chat↗", "href": "https://mail.google.com/chat/u/1/#chat/welcome", "newWindow": true},
+      "spreadsheets": {"title": "Spreadsheets↗", "href": "https://docs.google.com/spreadsheets/u/1/?tgif=d", "newWindow": true},
+      "community": {"title": "Community↗", "href": "https://currents.google.com/u/0/communities/101901734024125937720", "newWindow": true},
       "videos": {
         "title": "----Vídeos----  ", 
         "type": "separator"
       },
-     "curso 21/22": { "title": "Curso 21/22", "href": "https://youtube.com/playlist?list=PLuPGCp-dfrUQbbnbT_8qHK1WQYurYwBEY", "newWindow": true },
-     "curso 20/21": { "title": "Curso 20/21", "href": "https://www.youtube.com/playlist?list=PLuPGCp-dfrUTzN_o2beArY1QoFUTGH-yd", "newWindow": true},
-     "curso 19/20": { "title": "Curso 19/20", "href": "https://youtube.com/playlist?list=PLuPGCp-dfrUTByhC5b9vInei9OzdYSBs7", "newWindow": true }
+     "curso 21/22": { "title": "Curso 21/22↗", "href": "https://youtube.com/playlist?list=PLuPGCp-dfrUQbbnbT_8qHK1WQYurYwBEY", "newWindow": true },
+     "curso 20/21": { "title": "Curso 20/21↗", "href": "https://www.youtube.com/playlist?list=PLuPGCp-dfrUTzN_o2beArY1QoFUTGH-yd", "newWindow": true},
+     "curso 19/20": { "title": "Curso 19/20↗", "href": "https://youtube.com/playlist?list=PLuPGCp-dfrUTByhC5b9vInei9OzdYSBs7", "newWindow": true }
       }
   },
   "about": {

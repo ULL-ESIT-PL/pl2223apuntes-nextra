@@ -3,6 +3,19 @@ import styles from '../index.module.css'
 
 ## Computed List Link href=\{item.link\} 
 
+```jsx
+<ul>
+{
+  [
+    { title: 'Fill the PL initial form', link: '/labs/github-alu-form' },
+    { title: 'Learn to use VsCode', link: '/labs/visual-studio-code' }
+  ].map((item, index) => (
+    <li key={item.link}>* <Link href={item.link} className={styles.cta}>{item.title}</Link> [{item.title}]({item.link})</li>)
+  )
+}
+</ul>
+```
+
 <ul>
 {
   [

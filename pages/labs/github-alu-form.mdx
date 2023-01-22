@@ -7,17 +7,24 @@ export const frontMatter = {
   kind: "task",
   published: true,
   rubrica: [ "Rellenado cuestionario GitHub-Alu" ],
+  cuestionario: "https://campusingenieriaytecnologia2223.ull.es/mod/assign/view.php?id=20497"
 }
 
 import { useConfig } from 'nextra-theme-docs'
 import { Rubric } from '@components/rubric'
+import FrontMatter from '@components/frontmatter'
+import Link from 'next/link'
+import CLink from '@components/clink'
+import styles from '../index.module.css'
 
 ## TOC now on the right side
 
 # Práctica  { frontMatter.title }
 
 Puede encontrar el enlace al formulario a rellenar en la 
-[correspondiente tarea en el campus virtual de la asignatura](https://campusingenieriaytecnologia2122.ull.es/mod/assign/view.php?id=21205&forceview=1)
+<CLink href={frontMatter.cuestionario}>correspondiente tarea en el campus virtual de la asignatura</CLink>
+
+Véase también la sección <CLink href="/temas/introduccion-a-pl/presentacion#rellenar-cuestionario">Rellenar Cuestionario</CLink>
 
 ## Rúbrica
 
