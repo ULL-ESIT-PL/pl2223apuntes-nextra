@@ -55,7 +55,7 @@ Estas son las tareas a realizar:
 
       ![saveaszip.png](/images/saveaszip.png)
 
-## Rúbrica
+## Rubric
 
 import { Rubric } from '@components/rubric'
 

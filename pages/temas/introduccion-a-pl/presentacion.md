@@ -1,4 +1,10 @@
+export const FrontMatter = {
+  title: 'La Asignatura Procesadores de Lenguajes',
+}
+
 import { Callout } from 'nextra-theme-docs'
+
+# { FrontMatter.title }
 
 ## Horarios, Calendario académico y Tutorías
 

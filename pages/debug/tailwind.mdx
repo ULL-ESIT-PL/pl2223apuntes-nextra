@@ -1,0 +1,43 @@
+# Tailwind CSS
+
+import Clink from '@components/Clink';
+
+Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces. It is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override.
+
+## Lists
+
+* list-disc
+* list-decimal
+* list-none
+* hover:list-disc
+
+```js
+export const frontMatter = {
+  rubrica: [
+  "Proyecto Kanban creado a nivel de Organización",
+  "Lo estoy usando para informar del avance en mis prácticas",
+  "Convierto las notas en issues",
+  "Informe elaborado correcto"]
+}
+<ol className="list-disc">
+{frontMatter.rubrica.map(i => (<li key={i}>{i}</li>))}
+</ol>
+```
+
+### Execution
+
+export const frontMatter = {
+  rubrica: [
+  "Proyecto Kanban creado a nivel de Organización",
+  "Lo estoy usando para informar del avance en mis prácticas",
+  "Convierto las notas en issues",
+  "Informe elaborado correcto"]
+}
+
+<ol className="list-disc">
+{frontMatter.rubrica.map(i => (<li key={i}>{i}</li>))}
+</ol>
+
+### More information
+
+See <Clink href="https://tailwindcss.com/docs/list-style-type">Setting the list style type</Clink> for more information.

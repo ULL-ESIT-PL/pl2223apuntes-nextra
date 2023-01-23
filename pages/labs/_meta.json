@@ -1,20 +1,28 @@
 {
   "index": {
-    "title": "Labs"
+    "title": "All Labs",
+    "noRepos": true
   },
   "github-alu-form": {
-    "title": "GitHub-AluXXXX Form"  
+    "title": "GitHub-AluXXXX Form",
+    "noRepos": true,
+    "clases": ["2023-01-30"]
   },
   "pl-currents-community": {
-    "title": "PL Currents Community"
+    "title": "PL Currents Community",
+    "noRepos": true,
+    "clases": ["2023-01-30"]
   },
   "github-campus-expert": {
-    "title": "GitHub Campus Expert"
+    "title": "GitHub Campus Expert",
+    "clases": ["2023-01-30"]
   },
   "github-project-board": {
-    "title": "GitHub Project Board"
+    "title": "GitHub Project Board",
+    "clases": ["2023-01-30"]
   },
   "visual-studio-code": {
-    "title": "IDEs"
+    "title": "IDEs",
+    "clases": ["2023-01-30", "2023-02-31"]
   }
 }
